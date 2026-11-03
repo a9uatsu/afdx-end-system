@@ -1,4 +1,4 @@
-name: Import AFDX source archive
+name: Normalize repository authorship
 
 on:
   workflow_dispatch:
@@ -7,28 +7,21 @@ permissions:
   contents: write
 
 jobs:
-  import-source:
-    if: github.actor != 'github-actions[bot]'
+  reauthor:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
+      - name: Check out full repository history
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Extract project archive
+      - name: Rewrite commit authorship
         run: |
           set -euo pipefail
-          test -f afdx-end-system-source.zip
-          mkdir -p _import
-          unzip -q afdx-end-system-source.zip -d _import
-          cp -a _import/. .
-          rm -rf _import
-          rm afdx-end-system-source.zip
-
-      - name: Commit imported project files
-        run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "Import AFDX end-system project"
-          git push
+          FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch -f --env-filter '
+            export GIT_AUTHOR_NAME="a9uatsu"
+            export GIT_AUTHOR_EMAIL="a9uatsu@users.noreply.github.com"
+            export GIT_COMMITTER_NAME="a9uatsu"
+            export GIT_COMMITTER_EMAIL="a9uatsu@users.noreply.github.com"
+          ' -- --all
+          git push --force origin HEAD:main
