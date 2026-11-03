@@ -1,0 +1,41 @@
+[INFO] 32 VL 最少发送帧数=3
+
+==================== 发送帧独立校验汇总 ====================
+解析帧数        = 182
+帧长范围        = 64 .. 113 字节
+VLID 0x3000: 帧数= 9 BAG=1000000ns 间隔 min/avg/max=1000120/1000167.5/1000220ns 抖动(间隔-BAG) min/avg/max=   120/   167.5/   220ns 标准差=    34.6ns
+VLID 0x3001: 帧数= 5 BAG=2000000ns 间隔 min/avg/max=2000100/2000335.0/2000600ns 抖动(间隔-BAG) min/avg/max=   100/   335.0/   600ns 标准差=   196.7ns
+VLID 0x3002: 帧数= 3 BAG=4000000ns 间隔 min/avg/max=4000640/4000670.0/4000700ns 抖动(间隔-BAG) min/avg/max=   640/   670.0/   700ns 标准差=    30.0ns
+VLID 0x3003: 帧数= 9 BAG=1000000ns 间隔 min/avg/max=1000080/1000167.5/1000200ns 抖动(间隔-BAG) min/avg/max=    80/   167.5/   200ns 标准差=    39.9ns
+VLID 0x3004: 帧数= 5 BAG=2000000ns 间隔 min/avg/max=2000120/2000160.0/2000200ns 抖动(间隔-BAG) min/avg/max=   120/   160.0/   200ns 标准差=    40.0ns
+VLID 0x3005: 帧数= 3 BAG=4000000ns 间隔 min/avg/max=4000320/4000320.0/4000320ns 抖动(间隔-BAG) min/avg/max=   320/   320.0/   320ns 标准差=     0.0ns
+VLID 0x3006: 帧数= 9 BAG=1000000ns 间隔 min/avg/max=1000080/1000165.0/1000200ns 抖动(间隔-BAG) min/avg/max=    80/   165.0/   200ns 标准差=    42.1ns
+VLID 0x3007: 帧数= 5 BAG=2000000ns 间隔 min/avg/max=2000240/2000330.0/2000400ns 抖动(间隔-BAG) min/avg/max=   240/   330.0/   400ns 标准差=    71.4ns
+VLID 0x3008: 帧数= 3 BAG=4000000ns 间隔 min/avg/max=4000640/4000660.0/4000680ns 抖动(间隔-BAG) min/avg/max=   640/   660.0/   680ns 标准差=    20.0ns
+VLID 0x3009: 帧数= 9 BAG=1000000ns 间隔 min/avg/max=1000140/1000165.0/1000200ns 抖动(间隔-BAG) min/avg/max=   140/   165.0/   200ns 标准差=    24.0ns
+VLID 0x300a: 帧数= 5 BAG=2000000ns 间隔 min/avg/max=2000300/2000330.0/2000380ns 抖动(间隔-BAG) min/avg/max=   300/   330.0/   380ns 标准差=    33.2ns
+VLID 0x300b: 帧数= 3 BAG=4000000ns 间隔 min/avg/max=4000640/4000660.0/4000680ns 抖动(间隔-BAG) min/avg/max=   640/   660.0/   680ns 标准差=    20.0ns
+VLID 0x300c: 帧数= 9 BAG=1000000ns 间隔 min/avg/max=1000080/1000165.0/1000280ns 抖动(间隔-BAG) min/avg/max=    80/   165.0/   280ns 标准差=    76.0ns
+VLID 0x300d: 帧数= 5 BAG=2000000ns 间隔 min/avg/max=2000240/2000330.0/2000400ns 抖动(间隔-BAG) min/avg/max=   240/   330.0/   400ns 标准差=    71.4ns
+VLID 0x300e: 帧数= 3 BAG=4000000ns 间隔 min/avg/max=4000640/4000660.0/4000680ns 抖动(间隔-BAG) min/avg/max=   640/   660.0/   680ns 标准差=    20.0ns
+VLID 0x300f: 帧数= 9 BAG=1000000ns 间隔 min/avg/max=1000080/1000165.0/1000400ns 抖动(间隔-BAG) min/avg/max=    80/   165.0/   400ns 标准差=   104.8ns
+VLID 0x3010: 帧数= 5 BAG=2000000ns 间隔 min/avg/max=2000260/2000330.0/2000380ns 抖动(间隔-BAG) min/avg/max=   260/   330.0/   380ns 标准差=    52.0ns
+VLID 0x3011: 帧数= 3 BAG=4000000ns 间隔 min/avg/max=4000640/4000670.0/4000700ns 抖动(间隔-BAG) min/avg/max=   640/   670.0/   700ns 标准差=    30.0ns
+VLID 0x3012: 帧数= 9 BAG=1000000ns 间隔 min/avg/max=1000080/1000167.5/1000200ns 抖动(间隔-BAG) min/avg/max=    80/   167.5/   200ns 标准差=    39.9ns
+VLID 0x3013: 帧数= 5 BAG=2000000ns 间隔 min/avg/max=2000240/2000335.0/2000400ns 抖动(间隔-BAG) min/avg/max=   240/   335.0/   400ns 标准差=    68.4ns
+VLID 0x3014: 帧数= 3 BAG=4000000ns 间隔 min/avg/max=4000640/4000660.0/4000680ns 抖动(间隔-BAG) min/avg/max=   640/   660.0/   680ns 标准差=    20.0ns
+VLID 0x3015: 帧数= 9 BAG=1000000ns 间隔 min/avg/max=1000080/1000165.0/1000360ns 抖动(间隔-BAG) min/avg/max=    80/   165.0/   360ns 标准差=   113.9ns
+VLID 0x3016: 帧数= 5 BAG=2000000ns 间隔 min/avg/max=2000200/2000330.0/2000440ns 抖动(间隔-BAG) min/avg/max=   200/   330.0/   440ns 标准差=   110.9ns
+VLID 0x3017: 帧数= 3 BAG=4000000ns 间隔 min/avg/max=4000640/4000660.0/4000680ns 抖动(间隔-BAG) min/avg/max=   640/   660.0/   680ns 标准差=    20.0ns
+VLID 0x3018: 帧数= 9 BAG=1000000ns 间隔 min/avg/max=1000100/1000165.0/1000200ns 抖动(间隔-BAG) min/avg/max=   100/   165.0/   200ns 标准差=    31.2ns
+VLID 0x3019: 帧数= 5 BAG=2000000ns 间隔 min/avg/max=2000140/2000335.0/2000560ns 抖动(间隔-BAG) min/avg/max=   140/   335.0/   560ns 标准差=   171.7ns
+VLID 0x301a: 帧数= 3 BAG=4000000ns 间隔 min/avg/max=4000640/4000670.0/4000700ns 抖动(间隔-BAG) min/avg/max=   640/   670.0/   700ns 标准差=    30.0ns
+VLID 0x301b: 帧数= 9 BAG=1000000ns 间隔 min/avg/max=1000080/1000167.5/1000360ns 抖动(间隔-BAG) min/avg/max=    80/   167.5/   360ns 标准差=   113.1ns
+VLID 0x301c: 帧数= 5 BAG=2000000ns 间隔 min/avg/max=2000200/2000335.0/2000440ns 抖动(间隔-BAG) min/avg/max=   200/   335.0/   440ns 标准差=   107.1ns
+VLID 0x301d: 帧数= 3 BAG=4000000ns 间隔 min/avg/max=4000640/4000670.0/4000700ns 抖动(间隔-BAG) min/avg/max=   640/   670.0/   700ns 标准差=    30.0ns
+VLID 0x301e: 帧数= 8 BAG=1000000ns 间隔 min/avg/max=1000120/1000182.9/1000220ns 抖动(间隔-BAG) min/avg/max=   120/   182.9/   220ns 标准差=    34.5ns
+VLID 0x301f: 帧数= 4 BAG=2000000ns 间隔 min/avg/max=2000320/2000373.3/2000420ns 抖动(间隔-BAG) min/avg/max=   320/   373.3/   420ns 标准差=    41.1ns
+错误数          = 0
+RESULT: PASS
+===========================================================
+RESULT: PASS (32 VL)

@@ -1,0 +1,11 @@
+P2 final bitstream evidence - 2026-11-03
+
+file,size_bytes,sha256
+test.psk,28797160,50f634739f2cb9729cac6428f7c9c8d0b9cda16cce82efc67185d6b5c891d8c2
+test.jpsk,28797160,50f634739f2cb9729cac6428f7c9c8d0b9cda16cce82efc67185d6b5c891d8c2
+test_comp.psk,7121640,f0c3d02da1c25ebfbb075948ce7c297dfaf99bd469ace3b4c194cb43b54c169f
+
+Implementation: LUT 14059, FF 3876, Memory 46, DSP 0, Pins 22
+Timing: WNS +1.411 ns at 50 MHz, equivalent Fmax approx. 54.0 MHz
+Routing errors: 0
+BitGen: Bitgen all was well

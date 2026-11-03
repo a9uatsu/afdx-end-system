@@ -1,0 +1,3 @@
+Type	Slack(ns)	Actual Fmax(MHz)
+clock name:clk Fmax:N/A sync_slack:0.870 async_slack:N/A
+all_path_min_slack:0.870  all_route_min_slack:0.870

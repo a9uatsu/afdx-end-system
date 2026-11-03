@@ -1,0 +1,56 @@
+# eLinx / Quartus generated project data
+/db/
+/incremental_db/
+/work/
+/test.runs/
+/test.pr/
+/test.sim/
+/output_files/
+/hierarchy.xml
+/test.qsf
+/test.qpf
+/test.epr.bak
+*.qws
+*.qpg
+*.qdb
+*.qtl
+*.cdb
+*.hdb
+*.rdb
+*.kpt
+*.ammdb
+*.bpm
+*.ipinfo
+*.hif
+
+# Generated FPGA programming files
+*.sof
+*.pof
+*.rbf
+*.psk
+
+# ModelSim run data and waveform files
+/sim/modelsim/*
+!/sim/modelsim/*.log
+!/sim/modelsim/*.txt
+/sim/modelsim_lib*/
+/sim/modelsim_verify*/
+/sim/modelsim_timing*/
+/sim/work/
+*.wlf
+*.vstf
+transcript
+wlft*
+vsim_stacktrace*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

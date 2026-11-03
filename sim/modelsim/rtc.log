@@ -1,0 +1,30 @@
+# vsim -c -lib work tb_afdx_rtc -do "run -all; quit -f" -l rtc.log 
+# Start time: 21:17:32 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.tb_afdx_rtc(fast)
+# run -all
+# [PASS] 时间装载: sec=100 nsec=140
+# [PASS] 时间运行: sec=100 nsec=20140 (约 20us)
+# [PASS] 查询响应: op=0x81 sec=100 nsec=20800
+# 
+# ==================== RTC 同步测试汇总 ====================
+# 同步次数=1  错误数=0
+# RESULT: PASS
+# =========================================================
+# ** Note: $finish    : C:/Users/cds20/Desktop/FPGA/AFDX/test/test.srcs/sim_1/afdx/tb_afdx_rtc.v(116)
+#    Time: 21210 ns  Iteration: 1  Instance: /tb_afdx_rtc
+# End time: 21:17:33 on Nov 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

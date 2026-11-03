@@ -1,0 +1,4 @@
+[INFO] soak frames=12000 min_vl_frames=40 worst_bag_margin_ns=80
+[INFO] max_jitter_ns=2400 bag_violations=0 starvation_vl=0
+[INFO] summary table=C:\Users\cds20\Desktop\FPGA\AFDX\test\sim\modelsim\soak_summary.txt
+RESULT: PASS (128 VL SOAK)

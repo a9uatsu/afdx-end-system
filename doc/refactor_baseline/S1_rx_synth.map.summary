@@ -1,0 +1,12 @@
+Analysis & Synthesis Status : Successful - Mon Nov 02 23:04:17 2026
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : rx_s1
+Top-level Entity Name : rx_s1_top
+Family : Stratix
+Total logic elements : 2,662
+Total pins : 219
+Total virtual pins : 0
+Total memory bits : 16,384
+DSP block 9-bit elements : 0
+Total PLLs : 0
+Total DLLs : 0

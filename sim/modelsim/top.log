@@ -1,0 +1,45 @@
+# vsim -c -lib work tb_afdx_top -do "run -all; quit -f" -l top.log 
+# Start time: 21:17:26 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: C:\Users\cds20\Desktop\FPGA\AFDX\test\test.srcs\sources_1\afdx\afdx_top.v(115): (vopt-2685) [TFMPC] - Too few port connections for 'u_core'.  Expected 48, found 44.
+# ** Warning: C:\Users\cds20\Desktop\FPGA\AFDX\test\test.srcs\sources_1\afdx\afdx_top.v(115): (vopt-2718) [TFMPC] - Missing connection for port 'snmp_nosuch'.
+# ** Warning: C:\Users\cds20\Desktop\FPGA\AFDX\test\test.srcs\sources_1\afdx\afdx_top.v(115): (vopt-2718) [TFMPC] - Missing connection for port 'snmp_drop'.
+# ** Warning: C:\Users\cds20\Desktop\FPGA\AFDX\test\test.srcs\sources_1\afdx\afdx_top.v(115): (vopt-2718) [TFMPC] - Missing connection for port 'snmp_resp'.
+# ** Warning: C:\Users\cds20\Desktop\FPGA\AFDX\test\test.srcs\sources_1\afdx\afdx_top.v(115): (vopt-2718) [TFMPC] - Missing connection for port 'snmp_req'.
+# ** Warning: C:\Users\cds20\Desktop\FPGA\AFDX\test\test.srcs\sim_1\afdx\tb_afdx_top.v(72): (vopt-2685) [TFMPC] - Too few port connections for 'u_dual'.  Expected 48, found 44.
+# ** Warning: C:\Users\cds20\Desktop\FPGA\AFDX\test\test.srcs\sim_1\afdx\tb_afdx_top.v(72): (vopt-2718) [TFMPC] - Missing connection for port 'snmp_nosuch'.
+# ** Warning: C:\Users\cds20\Desktop\FPGA\AFDX\test\test.srcs\sim_1\afdx\tb_afdx_top.v(72): (vopt-2718) [TFMPC] - Missing connection for port 'snmp_drop'.
+# ** Warning: C:\Users\cds20\Desktop\FPGA\AFDX\test\test.srcs\sim_1\afdx\tb_afdx_top.v(72): (vopt-2718) [TFMPC] - Missing connection for port 'snmp_resp'.
+# ** Warning: C:\Users\cds20\Desktop\FPGA\AFDX\test\test.srcs\sim_1\afdx\tb_afdx_top.v(72): (vopt-2718) [TFMPC] - Missing connection for port 'snmp_req'.
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.tb_afdx_top(fast)
+# run -all
+# [INFO] 系统级测试开始（目标 24 帧）
+# 
+# ============== DUT1: AFDX_top 单总线自环 ==============
+# tx_frames=24  rx_frames=24  rx_deliv=24  rx_err=0
+# 
+# ========== DUT2: 双冗余网口（B 路延迟 500 周期） ==========
+# tx_frames=24  rx_frames=48  rx_deliv=24  rx_err=0  rx_drop=0
+# 冗余管理: 接受=24 重复副本=24 失序=0 未知VL=0 完整性错误=0 故障=00000000
+# 
+# ==================== 系统级测试汇总 ====================
+# 错误数 = 0
+# RESULT: PASS
+# =======================================================
+# ** Note: $finish    : C:/Users/cds20/Desktop/FPGA/AFDX/test/test.srcs/sim_1/afdx/tb_afdx_top.v(205)
+#    Time: 941370 ns  Iteration: 1  Instance: /tb_afdx_top
+# End time: 21:17:27 on Nov 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 10

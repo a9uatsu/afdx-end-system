@@ -1,0 +1,96 @@
+{
+  "input": "C:\\Users\\cds20\\Desktop\\FPGA\\AFDX\\test\\doc\\AFDX\u6280\u672f\u6587\u6863_\u6a21\u677f\u7248.docx",
+  "fonts_by_char_count": {},
+  "direct_run_formatting_runs": 11,
+  "direct_paragraph_formatting_paragraphs": 0,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 49,
+      "text": "\u529f\u80fd\u7c7b\u522b",
+      "style": "Normal"
+    },
+    {
+      "para_index": 50,
+      "text": "\u8bbe\u8ba1\u5185\u5bb9",
+      "style": "Normal"
+    },
+    {
+      "para_index": 61,
+      "text": "\u6307\u6807",
+      "style": "Normal"
+    },
+    {
+      "para_index": 62,
+      "text": "\u8bbe\u8ba1/\u9a8c\u8bc1\u7ed3\u679c",
+      "style": "Normal"
+    },
+    {
+      "para_index": 73,
+      "text": "\u6a21\u5757",
+      "style": "Normal"
+    },
+    {
+      "para_index": 74,
+      "text": "\u804c\u8d23",
+      "style": "Normal"
+    },
+    {
+      "para_index": 89,
+      "text": "\u5b57\u6bb5",
+      "style": "Normal"
+    },
+    {
+      "para_index": 90,
+      "text": "\u957f\u5ea6",
+      "style": "Normal"
+    },
+    {
+      "para_index": 91,
+      "text": "\u8bf4\u660e",
+      "style": "Normal"
+    },
+    {
+      "para_index": 110,
+      "text": "\u8d44\u6e90/\u65f6\u5e8f\u9879\u76ee",
+      "style": "Normal"
+    },
+    {
+      "para_index": 111,
+      "text": "\u7ed3\u679c",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_run_formatting": [
+      {
+        "para_index": 49,
+        "run_text": "\u529f\u80fd\u7c7b\u522b",
+        "style": "Normal"
+      },
+      {
+        "para_index": 50,
+        "run_text": "\u8bbe\u8ba1\u5185\u5bb9",
+        "style": "Normal"
+      },
+      {
+        "para_index": 61,
+        "run_text": "\u6307\u6807",
+        "style": "Normal"
+      },
+      {
+        "para_index": 62,
+        "run_text": "\u8bbe\u8ba1/\u9a8c\u8bc1\u7ed3\u679c",
+        "style": "Normal"
+      },
+      {
+        "para_index": 73,
+        "run_text": "\u6a21\u5757",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

@@ -1,0 +1,30 @@
+# AFDX_top pin locations for EQ6HL130-CSG484_H
+# P2 bitstream closure: all 22 top-level ports use unblocked, user I/O pins.
+# Board-specific pinout MUST replace these locations before hardware use.
+
+# clk 必须放在全局时钟引脚：G13 是普通 UIO，时钟只能走通用布线通道（实测插入延迟 9.37 ns）
+set_location_assignment PIN_L19 -to clk
+set_location_assignment PIN_B22 -to reset
+
+set_location_assignment PIN_K19 -to tx_data[0]
+set_location_assignment PIN_C22 -to tx_data[1]
+set_location_assignment PIN_H22 -to tx_data[2]
+set_location_assignment PIN_D22 -to tx_data[3]
+set_location_assignment PIN_G22 -to tx_data[4]
+set_location_assignment PIN_E22 -to tx_data[5]
+set_location_assignment PIN_H20 -to tx_data[6]
+set_location_assignment PIN_F22 -to tx_data[7]
+
+set_location_assignment PIN_K16 -to rx_data[0]
+set_location_assignment PIN_H14 -to rx_data[1]
+set_location_assignment PIN_H16 -to rx_data[2]
+set_location_assignment PIN_F20 -to rx_data[3]
+set_location_assignment PIN_H18 -to rx_data[4]
+set_location_assignment PIN_A20 -to rx_data[5]
+set_location_assignment PIN_A21 -to rx_data[6]
+set_location_assignment PIN_G19 -to rx_data[7]
+
+set_location_assignment PIN_F18 -to tx_valid
+set_location_assignment PIN_D20 -to rx_valid
+set_location_assignment PIN_G16 -to tx_ready
+set_location_assignment PIN_F14 -to rx_ready

@@ -1,0 +1,90 @@
+# vsim -c -lib work tb_afdx_lib "+VEC=C:\Users\cds20\Desktop\FPGA\AFDX\test\sim\vectors\lib_vectors.txt" -do "run -all; quit -f" -l lib.log 
+# Start time: 21:17:02 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.tb_afdx_lib(fast)
+# run -all
+# [INFO] AFDX 底层库自校验开始, 向量文件 = C:\Users\cds20\Desktop\FPGA\AFDX\test\sim\vectors\lib_vectors.txt
+# [PASS] empty            n=0 crc=0x00000000 ck=0xffff
+# [PASS] one_byte         n=1 crc=0x59bc5767 ck=0xa5ff
+# [PASS] two_bytes        n=2 crc=0xf605253b ck=0x2152
+# [PASS] ip_hdr           n=20 crc=0xa7eec2bc ck=0xa5bd
+# [PASS] udp_hdr          n=8 crc=0x49fe024a ck=0xe872
+# [PASS] all_zero         n=20 crc=0x0fd59b8d ck=0xffff
+# [PASS] all_ff           n=21 crc=0x344d44fe ck=0x00ff
+# [PASS] odd_len          n=23 crc=0x53f448f2 ck=0x6f7b
+# [PASS] max_word         n=40 crc=0x8cd04c73 ck=0x0000
+# [PASS] carry_chain      n=20 crc=0x2cf772b0 ck=0x0000
+# [PASS] rand01           n=1 crc=0x92dde4eb ck=0x15ff
+# [PASS] rand02           n=2 crc=0x47bb1cd0 ck=0x9c58
+# [PASS] rand03           n=3 crc=0x0ee26fd3 ck=0x39cd
+# [PASS] rand04           n=4 crc=0x6c53341e ck=0xbf7d
+# [PASS] rand05           n=5 crc=0xfc56f076 ck=0xa987
+# [PASS] rand06           n=6 crc=0xdb96914c ck=0x827b
+# [PASS] rand07           n=7 crc=0xd8bbb207 ck=0x3692
+# [PASS] rand08           n=8 crc=0x25465f82 ck=0x9f70
+# [PASS] rand09           n=9 crc=0x33d3e84b ck=0xd663
+# [PASS] rand10           n=10 crc=0xb3ce4a00 ck=0x0424
+# [PASS] rand11           n=11 crc=0x57d4378d ck=0x4290
+# [PASS] rand12           n=12 crc=0x76881b49 ck=0xc3e0
+# [PASS] rand13           n=13 crc=0x9918a281 ck=0x7ee2
+# [PASS] rand14           n=14 crc=0x6f8ddb98 ck=0xd580
+# [PASS] rand15           n=15 crc=0x710badad ck=0x15a1
+# [PASS] rand16           n=16 crc=0xf30c9c45 ck=0x7a8d
+# [PASS] rand17           n=17 crc=0x0d6d551f ck=0x145c
+# [PASS] rand18           n=18 crc=0xbe46c05d ck=0xfe0f
+# [PASS] rand19           n=19 crc=0xea0e5b4e ck=0xa9d0
+# [PASS] rand20           n=20 crc=0xb6d5b2f2 ck=0x6e27
+# [PASS] rand21           n=21 crc=0x806e4fee ck=0x99d7
+# [PASS] rand22           n=22 crc=0xc16953c9 ck=0xdb6f
+# [PASS] rand23           n=23 crc=0x8f84a23a ck=0x2a01
+# [PASS] rand24           n=24 crc=0x84872dce ck=0x68d7
+# [PASS] rand25           n=25 crc=0x43f014e7 ck=0x99cf
+# [PASS] rand26           n=26 crc=0x053cf1da ck=0x9e3d
+# [PASS] rand27           n=27 crc=0x4fb64752 ck=0xdd10
+# [PASS] rand28           n=28 crc=0xbc03a780 ck=0xfe82
+# [PASS] rand29           n=29 crc=0xe0ccb4f2 ck=0x9255
+# [PASS] rand30           n=30 crc=0xf219d781 ck=0x9020
+# [PASS] rand31           n=31 crc=0xad9fd977 ck=0xe079
+# [PASS] rand32           n=32 crc=0xe3710f6a ck=0xe597
+# [PASS] rand33           n=33 crc=0x5439ad28 ck=0x17ef
+# [PASS] rand34           n=34 crc=0x1873628e ck=0xbec1
+# [PASS] rand35           n=35 crc=0x27aac741 ck=0x0446
+# [PASS] rand36           n=36 crc=0x3202c775 ck=0xabe4
+# [PASS] rand37           n=37 crc=0xb722d541 ck=0x5f02
+# [PASS] rand38           n=38 crc=0x63085531 ck=0xc6e4
+# [PASS] rand39           n=39 crc=0x05a201d6 ck=0xd78a
+# [PASS] rand40           n=40 crc=0xf838f1c3 ck=0xb3b9
+# [PASS] udp_empty        n=0 crc=0x00000000 ck=0xffff
+# [PASS] udp_one_byte     n=1 crc=0x59bc5767 ck=0xa5ff
+# [PASS] udp_two_bytes    n=2 crc=0xf605253b ck=0x2152
+# [PASS] udp_ip_hdr       n=20 crc=0xa7eec2bc ck=0xa5bd
+# [PASS] udp_udp_hdr      n=8 crc=0x49fe024a ck=0xe872
+# [PASS] udp_all_zero     n=20 crc=0x0fd59b8d ck=0xffff
+# [PASS] udp_all_ff       n=21 crc=0x344d44fe ck=0x00ff
+# [PASS] udp_odd_len      n=23 crc=0x53f448f2 ck=0x6f7b
+# [PASS] udp_max_word     n=40 crc=0x8cd04c73 ck=0xffff
+# [PASS] udp_carry_chain  n=20 crc=0x2cf772b0 ck=0xffff
+# [PASS] udp_rand01       n=1 crc=0x92dde4eb ck=0x15ff
+# [PASS] udp_rand02       n=2 crc=0x47bb1cd0 ck=0x9c58
+# 
+# ==================== 底层库测试汇总 ====================
+# 用例数=62  通过=62  失败=0
+# RESULT: PASS
+# =======================================================
+# ** Note: $finish    : C:/Users/cds20/Desktop/FPGA/AFDX/test/test.srcs/sim_1/afdx/tb_afdx_lib.v(111)
+#    Time: 28970 ns  Iteration: 1  Instance: /tb_afdx_lib
+# End time: 21:17:03 on Nov 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

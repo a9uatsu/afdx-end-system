@@ -1,0 +1,27 @@
+2026-11-03 13:45:55,093 [INFO] [ARC_Proc_5]:Deserialize device ends.
+2026-11-03 13:45:55,162 [INFO] [ARC_Proc_1]:Deserialize tiles ends.
+2026-11-03 13:45:55,279 [INFO] [ARC_Proc_3]:Deserialize cfgcells ends.
+2026-11-03 13:45:55,293 [INFO] [ARC_Proc_4]:Deserialize configmode ends.
+2026-11-03 13:45:55,822 [INFO] [UDM_Load_0]:Load eLinx design check point(.ecp) complete.
+2026-11-03 13:45:55,826 [INFO] [UDM_IP_1]:Begin parsing IP file(s)...
+2026-11-03 13:45:55,829 [INFO] [UDM_IP_1]:parse_ip_specific complete.
+2026-11-03 13:45:55,832 [INFO] [UDM_Mem_1]:VQM have NOT memory 
+2026-11-03 13:45:55,832 [INFO] [UDM_Mem_1]:parse_mem_initial complete.
+2026-11-03 13:45:55,832 [INFO] [BitGen_Proc_1]:Launched cram extraction...
+2026-11-03 13:45:57,491 [INFO] [BitGen_Proc_5]:Cram configuration total time consumed 1.656 second(s).
+2026-11-03 13:45:57,491 [INFO] [BitGen_Proc_6]:Launched bram extraction...
+2026-11-03 13:45:57,492 [INFO] [BitGen_Proc_7]:Bram extraction success.
+2026-11-03 13:45:57,492 [INFO] [BitGen_Proc_8]:Launched bram configuration...
+2026-11-03 13:45:57,495 [INFO] [BitGen_Proc_9]:Bram configuration success.
+2026-11-03 13:45:57,495 [INFO] [BitGen_Proc_10]:Bram processing total time consumed 0.000 second(s).
+2026-11-03 13:45:57,495 [DEBUG] [BitGen_Proc_9]:FST(Cram fast simulation) begin.
+2026-11-03 13:45:57,701 [INFO] [BitGen_Proc_9]:FST(Cram fast simulation) file output success.
+2026-11-03 13:45:57,701 [DEBUG] [BitGen_Proc_9]:MIN(Bram fast simulation) begin.
+2026-11-03 13:45:57,738 [INFO] [BitGen_Proc_9]:MIN(Bram fast simulation) file output success.
+2026-11-03 13:45:57,742 [INFO] [BitGen_Proc_20]:Head information:Device=EQ6HL130;Package=CSG484_H;Top=afdx_top;Version=eLinx3.0.7;Date=2026/11/03;Time=13:45:57
+2026-11-03 13:46:00,594 [INFO] [BitGen_Proc_10]:Raw PSK file output success.
+2026-11-03 13:46:01,001 [INFO] [BitGen_Proc_10]:Compressed PSK file output success.
+2026-11-03 13:46:01,002 [INFO] [BitGen_Proc_10]:Compressed PSK file output time consumed 0.187 second(s)
+2026-11-03 13:46:01,006 [INFO] [BitGen_Proc_10]:Bitstream file(s) output success.
+2026-11-03 13:46:01,006 [INFO] [BitGen_Proc_10]:Bitstream file(s) output time consumed 3.268 second(s).
+Bitgen all was well

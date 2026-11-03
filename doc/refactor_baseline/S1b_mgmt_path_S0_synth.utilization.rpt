@@ -1,0 +1,11 @@
+Synthesis Status : Successful
+eLinx Version : 3.0 
+Top-level Entity Name : afdx_mgmt_path
+Total LUTs : 125893
+Total FFs : 30124
+Total CLBs : 13677
+Total Memorys : 1
+Total DSPs : 0
+Total PLLs : 0
+Total Pins : 302
+Device Min Height : 4

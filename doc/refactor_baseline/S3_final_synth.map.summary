@@ -1,0 +1,12 @@
+Analysis & Synthesis Status : Successful - Tue Nov 03 12:24:17 2026
+eLinx 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : test
+Top-level Entity Name : AFDX_top
+Family : eHiChip6
+Total logic elements : 13,267
+Total pins : 22
+Total virtual pins : 0
+Total memory bits : 56,384
+DSP block 9-bit elements : 0
+Total PLLs : 0
+Total DLLs : 0

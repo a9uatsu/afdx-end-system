@@ -1,0 +1,25 @@
+[PASS] 第0帧 vlid=0x2001 sn=  1 len=  32 载荷一致
+[PASS] 第1帧 vlid=0x2001 sn=  2 len=  32 载荷一致
+[PASS] 第2帧 vlid=0x2001 sn=  4 len=  32 载荷一致
+[PASS] 第3帧 vlid=0x2002 sn=  1 len=   0 载荷一致
+[PASS] 第4帧 vlid=0x2002 sn=  2 len=1468 载荷一致
+[PASS] 第5帧 vlid=0x2001 sn=  5 len=  32 载荷一致
+[PASS] 第6帧 vlid=0x2001 sn=  6 len=  32 载荷一致
+[PASS] 第7帧 vlid=0x2002 sn=  6 len=   8 载荷一致
+[PASS] 第8帧 vlid=0x2002 sn= 12 len=   8 载荷一致
+[PASS] 第9帧 vlid=0x2002 sn= 18 len=   8 载荷一致
+[PASS] 计数器 accept: 10
+[PASS] 计数器 dup: 3
+[PASS] 计数器 err: 7
+[PASS] 计数器 fault: 2
+[PASS] 计数器 ic: 5
+[PASS] 计数器 oos: 4
+[PASS] 计数器 unknown: 1
+
+==================== 接收通路校验汇总 ====================
+交付帧数      = 10 (期望 10)
+RTL 计数器    = {'accept': 10, 'dup': 3, 'oos': 4, 'unknown': 1, 'err': 7, 'ic': 5, 'fault': 2}
+期望计数器    = {'accept': 10, 'dup': 3, 'oos': 4, 'unknown': 1, 'err': 7, 'ic': 5, 'fault': 2}
+错误数        = 0
+RESULT: PASS
+=========================================================
