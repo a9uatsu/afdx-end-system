@@ -1,0 +1,34 @@
+name: Import AFDX source archive
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-source:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Extract project archive
+        run: |
+          set -euo pipefail
+          test -f afdx-end-system-source.zip
+          mkdir -p _import
+          unzip -q afdx-end-system-source.zip -d _import
+          cp -a _import/. .
+          rm -rf _import
+          rm afdx-end-system-source.zip
+
+      - name: Commit imported project files
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Import AFDX end-system project"
+          git push
